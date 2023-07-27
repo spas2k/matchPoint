@@ -1,13 +1,57 @@
+@import '/src/css/mainApp.css';
+@import '/src/css/mobileMenu.css';
+@import '/src/css/mainMenu.css';
+@import '/src/css/darkTheme.css';
+@import '/src/css/lightTheme.css';
+@import '/src/css/logo.css';
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+
+  font-family: 'Noto Sans', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  background-color: #171c20;
+  background-color: rgb(32 35 42);
+
+  display: inline;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a,
+a:link.navItem,
+a:visited.navItem {
+
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input:focus {
+  outline: none
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.liIndent {
+  margin-left: 20px
+}
+
+.dark {
+  background-color: rgb(32 35 42);
+
+  color: #fff;
+}
+
+.light {
+  background-color: #f7f9fa;
+  color: #333;
 }

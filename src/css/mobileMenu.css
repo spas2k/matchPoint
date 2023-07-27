@@ -1,0 +1,56 @@
+.mobileMenu {
+    position: fixed;
+    background: #31acff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    padding-left: 25px;
+    z-index: 8;
+
+    z-index: 8;
+}
+
+.mobileLogo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 25px;
+    width: 75%;
+}
+
+.mobileMenuMenuButton {
+    flex-grow: 10;
+
+    width: 25%;
+}
+
+.mobileMenuDrop {
+
+    width: 300px;
+    position: fixed;
+    background-color: #31acff;
+    z-index: 8;
+    top: 50px;
+    left: 0;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    color: #fff;
+    z-index: 7;
+
+}
+
+.mobileMenuDrop li {
+    padding: 15px;
+
+}
+
+.mobileMenuDrop li:hover {
+    background: #31acff;
+    color: #333
+}
+
+.mobileMenu svg {
+    fill: #fff
+}

@@ -1,0 +1,353 @@
+.container {
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+
+
+}
+
+.main {
+
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  top: 50px;
+  display: flex;justify-content: center;
+
+}
+
+.mainModule {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 2px;
+  background-color: #fff;
+  min-width: 370px;
+
+  height: calc(100%);
+  min-height: -webkit-fill-available;
+
+}
+
+.moduleHdr {
+  color: #2a9eeb;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #31acff
+}
+
+.mainModule table {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #eee
+}
+
+.mainModule th {
+  padding: 10px;
+  background: #4da68e;
+  color: #fff
+}
+
+.mainModule td {
+  padding: 2px 10px 2px 10px;
+  border: 1px solid #efefef
+}
+
+.inputItem {
+  padding: 10px;
+}
+
+.mainModule input {
+  border: 1px solid #eee;
+  padding: 10px;
+  display: block;
+  margin: 0px auto;
+  width: 90%;
+  border-radius: 3px;
+  background-color: #f7f9fa;
+  color: #777
+}
+
+label {
+
+  font-size: 12px;
+  color: #333;
+  display: block;
+  top: -20px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.even {
+  background-color: #fff;
+}
+
+.odd {
+  background-color: #f7f9fa;
+}
+
+select {
+  width: 200px;
+  background-color: #f7f9fa;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin: 0px 10px 10px 10px;
+  appearance: none;
+  border-radius: 10px;
+}
+
+option {
+  color: #777
+}
+
+.playerHdr {
+  padding: 10px;
+  background: #4da68e;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.playerCnt {
+  padding: 20px
+}
+
+.playerCntItem {
+  padding: 5px
+}
+
+.playerCntItemL {
+  padding: 5px 20px 5px 5px;
+  width: 150px;
+  text-align: right;
+  color: #4da68e;
+  font-weight: bolder;
+}
+
+.playerCntItemR {
+  padding: 5px
+}
+
+.buttonBox {
+  margin: 20px
+}
+
+.score {
+  width: 330px;
+}
+
+.scoreBox {
+  width: 330px;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 10px #eee;
+  border-radius: 5px;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.scoreBoxDesc {
+  background-color: #9fb6b0;
+  padding: 5px;
+  color: #fff;
+  font-size: 90%;
+  min-height: 20px;
+}
+
+.scoreBoxDate {
+  background-color: #fff;
+  color: #4da68e;
+  padding: 5px;
+  font-size: 90%;
+  min-height: 20px
+}
+
+.team {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin: 4px;
+  display: flex;
+}
+
+.teamBox {
+  border-bottom: 1px solid #eee;
+  padding: 3px;
+  border-radius: 4px;
+  margin: 5px;
+  display: flex;
+}
+
+.teamNames,
+.teamNamesBox {
+  width: 300px;
+  padding: 3px
+}
+
+
+.playerName {
+  height: 46px
+}
+
+
+
+.playerName:hover {
+  background-color: #31acff;
+  color: #fff
+}
+
+.playerName input {
+  width: 75%;
+  border-radius: 4px;
+}
+
+.searchInputs {
+  display: flex
+}
+
+.searchIcon {
+  height: 50px;
+  width: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.searchIcon svg {
+  font-size: 15px
+}
+
+.matchScores,
+.matchScoresBox {
+  width: 110px;
+  display: flex;
+}
+
+.dataResult {
+  position: absolute;
+  width: 265px;
+  max-height: 100px;
+  background-color: #fff;
+  box-shadow: 1px 1px 12px #999;
+  overflow: hidden;
+  overflow-y: auto;
+  color: #555;
+  border-radius: 4px;
+}
+
+.dataItem {
+  padding: 5px;
+}
+
+.dataItem:hover {
+  background: #31acff;
+  color: #fff
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none
+}
+
+.setScore {
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 70px;
+  background: #e4e9ec;
+  border: 1px solid #ddd;
+  user-select: none;
+  width: 25px;
+  transition: .2s;
+}
+
+.setScore:hover {
+  background: #fff;
+  color: rgb(132, 206, 163);
+  transition: .2s;
+}
+
+.setScoreBox {
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 32px;
+  text-align: center;
+  background: #e4e9ec;
+  border: 1px solid #ddd;
+  user-select: none;
+  width: 25px;
+}
+
+.winner {
+  background-color: #31acff;
+  color: #fff
+}
+
+@media (max-width: 1224px) {
+  table {
+    font-size: 10px
+  }
+
+  .mainMenuLogo {
+    width: 25%;
+    position: relative;
+    top: 10px;
+  }
+}
+
+@media (min-width: 1224px) {
+  .mainDiv {
+    font-size: 16px;
+    padding: 10px
+  }
+
+  .mainMenuLogo {
+    font-size: 24px;
+    width: 15%;
+  }
+}
+
+.selPad {
+  padding-left: 35px
+}
+
+.formSmall {
+  width: 450px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 12px #ddd;
+  position: relative;
+  top: 60px;
+}
+
+.buttonBox {
+  display: flex;
+}
+
+.mainButton {
+  background: #31acff;
+  max-width: 300px;
+  padding: 15px 20px 15px 20px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  color: #fff;
+  margin: 20px auto;
+  transition: .2s;
+
+
+}
+
+.mainButton:hover {
+  background-color: #2a9eeb;
+  transition: .2s;
+}

@@ -1,0 +1,46 @@
+.logo {
+    width: 210px;
+    text-decoration: none;
+    /* margin: 0 50px 0 50px; */
+    font-family: 'Krona One', sans-serif;
+    /* font-family: 'Montserrat Subrayada', sans-serif; */
+}
+
+.logoBox {
+
+    width: 210px;
+    display: flex;
+    align-items: center;
+    transition: .5s
+        /* overflow: hidden; */
+}
+
+.logoBox:hover {
+    width: 100px;
+    margin-right: 100px;
+
+    transition: .5s
+}
+
+.logoName1 {
+
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: #fff;
+    margin: 2px;
+}
+
+.logoName2 {
+
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    margin: 2px;
+
+}
+
+.ball {
+
+    border-radius: 60px;
+    background-color: transparent;
+}
